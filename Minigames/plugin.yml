@@ -1,0 +1,8 @@
+name: Baseball435sMinigames
+author: baseball435
+version: 1.0
+description: A minigame api developed by baseball435
+main: com.baseball435.minigames.Main
+commands:
+     leave:
+           description: Removes you from your current minigame.
