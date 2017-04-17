@@ -1,0 +1,6 @@
+name: RegionManager
+main: com.jmr.region.Plugin
+version: 1.0
+commands:
+    region:
+        description: Gives a selection of commands for regions.

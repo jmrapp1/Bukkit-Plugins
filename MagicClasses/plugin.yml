@@ -1,0 +1,4 @@
+name: MagicClasses
+main: com.jmr.classes.Plugin
+version: 1.0
+depend: [MagicSpells]

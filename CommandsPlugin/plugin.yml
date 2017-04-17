@@ -1,0 +1,29 @@
+name: PlayerCommands
+main: com.jmr.cmd.Plugin
+version: 1.0
+commands:
+   spawn:
+     description: Teleports you to the spawn.
+   money:
+     description: Tells you the amount of coins you have.
+     aliases: [coins, coin]   
+   region:
+     description: Gives region commands.
+   join:
+     description: Gives region commands.
+   reloadregions:
+     description: Reloads the regions from the text file.
+   sponsor:
+     description: Sponsor a player in a survival minigame.
+   magicspellcast:
+        description: Cast a spell
+        usage: /<command>
+        aliases: [cast,c]
+    magicspellmana:
+        description: Show mana bar
+        usage: /<command>
+        aliases: [mana]
+    magicspellxp:
+        description: Show magic XP info
+        usage: /<command>
+        aliases: [magicxp,spellxp]

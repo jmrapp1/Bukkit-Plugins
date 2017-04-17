@@ -1,0 +1,4 @@
+name: Menus
+main: com.jmr.menu.Plugin
+depend: [MagicSpells]
+version: 1.0

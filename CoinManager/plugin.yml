@@ -1,0 +1,8 @@
+name: CoinManager
+main: com.jmr.cmanager.Plugin
+version: 1.0
+commands:
+   money:
+     description: Check the amount of money that you have.
+   pay:
+     description: Send money to another player.

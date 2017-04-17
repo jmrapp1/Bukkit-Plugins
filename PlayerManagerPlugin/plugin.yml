@@ -1,0 +1,3 @@
+name: PlayerManager
+main: com.jmr.pmanager.Plugin
+version: 1.0
