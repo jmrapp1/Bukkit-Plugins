@@ -1,0 +1,21 @@
+name: MagicSpells
+main: com.nisovin.magicspells.MagicSpells
+version: 1.0
+author: nisovin and Baseball435
+softdepend: [Vault,ProtocolLib,WorldGuard,PlayerManager]
+commands:
+    magicspellcast:
+        description: Cast a spell
+        aliases: [cast,c]
+    grantspell:
+        description: Grants a player a spell
+    removespell:
+        description: Removes a players spell
+    spells:
+        description: Displays what spells have been learned
+    magicspellmana:
+        description: Show mana bar
+        aliases: [mana]
+    magicspellxp:
+        description: Show magic XP info
+        aliases: [magicxp,spellxp]
