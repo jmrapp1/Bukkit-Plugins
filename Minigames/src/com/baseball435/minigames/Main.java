@@ -32,10 +32,10 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new EventListener(), this);
 		
 		if (!setupEconomy() ) {
-            LOG.severe(String.format("[%s] - Disabled due to no Vault dependency found!", getDescription().getName()));
-            getServer().getPluginManager().disablePlugin(this);
-            return;
-        }
+		    LOG.severe(String.format("[%s] - Disabled due to no Vault dependency found!", getDescription().getName()));
+		    getServer().getPluginManager().disablePlugin(this);
+		    return;
+		}
 		
 		getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
 		    public void run() {
@@ -74,16 +74,16 @@ public class Main extends JavaPlugin {
 	}
 	
 	private boolean setupEconomy() {
-        if (getServer().getPluginManager().getPlugin("Vault") == null) {
-            return false;
-        }
-        RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
-        if (rsp == null) {
-            return false;
-        }
-        ECON = rsp.getProvider();
-        return ECON != null;
-    }
+		if (getServer().getPluginManager().getPlugin("Vault") == null) {
+		    return false;
+		}
+		RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
+		if (rsp == null) {
+		    return false;
+		}
+		ECON = rsp.getProvider();
+		return ECON != null;
+	}
 	
 	public static World getWorld() {
 		return WORLD;
